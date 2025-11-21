@@ -62,7 +62,7 @@ parser.add_argument('--aug_plus', action='store_true',
                     help='If use the data aug_plus')
 
 # Result(model or state or loss) to save
-parser.add_argument('--save_base', type=str, default='/data/zmh/',
+parser.add_argument('--save_base', type=str, default='./data/hxy/',
                     help='save the value of loss per epoch')
 parser.add_argument('--dir_loss', type=str, default='result/loss/',
                     help='save the value of loss per epoch')
