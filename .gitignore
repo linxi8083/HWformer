@@ -1,2 +1,14 @@
 model_zoo.zip
 model_zoo/
+
+# 缓存文件
+__pycache__/
+*.pyc
+*.pyo
+
+# 数据文件
+data/
+*.zip
+*.tar.gz
+*.pth
+*.pkl
